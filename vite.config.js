@@ -9,9 +9,9 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'Nara P A - Admin',
-        short_name: 'App - Admin',
-        description: 'Administración de la aplicación Nara Páez Aguirre',
+        name: 'Nara Páez Aguirre',
+        short_name: 'Nara Páez Aguirre',
+        description: 'Nara Páez Aguirre',
         theme_color: '#ffffff',
         icons: [
           {
