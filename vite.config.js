@@ -9,9 +9,9 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'Nara Páez Aguirre',
+        name: 'Nara Páez Aguirre Albúm',
         short_name: 'Nara Páez Aguirre',
-        description: 'Nara Páez Aguirre',
+        description: 'Nara Páez Aguirre Albúm Fotográfico',
         theme_color: '#ffffff',
         icons: [
           {
