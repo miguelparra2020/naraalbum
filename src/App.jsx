@@ -20,7 +20,7 @@ function App() {
     <>
       <h1>Bienvenidos a mi albúm fotográfico</h1>
       <div style={{display: 'flex', justifyContent: 'center'}}>
-      <MDBCard >
+      <MDBCard style={{maxWidth: '300px'}}>
       <MDBCardImage src={imagePortada} position='top' alt='...' 
       width={180}
       height={320}
