@@ -8,14 +8,21 @@ import {
   MDBCardImage
 } from 'mdb-react-ui-kit';
 import imagePortada from './assets/portada-nara.jpeg'
+import { useEffect } from 'react';
 function App() {
+  useEffect(() => {
+    setTimeout(() => {
+      console.log("Hola")
+    }, 5000);
+  }, [])
 
   return (
     <>
       <h1>Bienvenidos a mi albúm fotográfico</h1>
-      <MDBCard>
+      <div style={{display: 'flex', justifyContent: 'center'}}>
+      <MDBCard >
       <MDBCardImage src={imagePortada} position='top' alt='...' 
-      width={200}
+      width={180}
       height={320}
       />
       <MDBCardBody>
@@ -24,7 +31,9 @@ function App() {
           24/08/2024 9:18 pm
         </MDBCardText>
       </MDBCardBody>
+      
     </MDBCard>
+    </div>
     </>
   )
 }
